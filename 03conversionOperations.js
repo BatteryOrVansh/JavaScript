@@ -1,7 +1,7 @@
 //------------------------------------------------------------------
 // to convert string into number, we use the function Number()
 
-let age = "19" // 
+let age = "19" // string
 console.log(typeof age) // string
 let numAge = Number(age) // conversion operation takes place
 console.log(typeof numAge) // number
