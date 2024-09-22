@@ -34,7 +34,7 @@ let score3 = 300
 console.log(Array.of(score1, score2, score3)); // creates array from set of var
 
 
-//GPT: 
+//GPT: diff bw Array(), Array.from() and Array.of() functions for array creation and their usecases
 
 // Array() - Can create arrays from elements or a specified length.
 // - If one number is passed, it creates an array with that length (empty slots).
