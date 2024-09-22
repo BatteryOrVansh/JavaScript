@@ -11,7 +11,7 @@ tinderUser.isLoggedIn = false
 // console.log(tinderUser);
 
 // objects inside objects
-const regu.larUser = {
+const regularUser = {
     email: "some@gmailcom",
     fullname: {
         userfullname: {
