@@ -62,25 +62,37 @@ users[1].email // to access the property of the object inside an array
 // console.log(tinderUser.hasOwnProperty('isLoggedIn')); // to check if a certain property is inside the object 
 
 
+
+// object destructure 
+
 const course = {
     coursename: "js in hindi",
     price: "999",
     courseInstructor: "hitesh"
 }
 
-// course.courseInstructor
+// course.courseInstructor // no problem with this way..  but..
 
-const {courseInstructor: instructor} = course
+const {courseInstructor: instructor} = course // this is also how to destructure and get the value. 
+// const{courseInstructor} = course 
 
 // console.log(courseInstructor);
 console.log(instructor);
+
+
+// APIs
 
 // {
 //     "name": "hitesh",
 //     "coursename": "js in hindi",
 //     "price": "free"
-// }
+// } 
+// this looks like an object but it is not cz it has no name and also : is used. it's JSON
+// means it is almost treated as a json 
+// in proper json, the keys and values are all strings g
 
+
+// sometimes APIs are received in the form of arrays including objects 
 [
     {},
     {},
